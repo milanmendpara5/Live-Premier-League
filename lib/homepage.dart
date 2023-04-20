@@ -32,7 +32,6 @@ class HomePage extends StatelessWidget {
                   : SingleChildScrollView(
                       physics: AlwaysScrollableScrollPhysics(),
                       child: Expanded(
-                        // height: Get.height * 0.95,
                         child: Padding(
                           padding: const EdgeInsets.all(20),
                           child: Column(
@@ -95,7 +94,7 @@ class HomePage extends StatelessWidget {
                               if (homepageController.isMatchLive)
                                 const Text("Live Match", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                               if (homepageController.isMatchLive) const SizedBox(height: 20),
-                              // if (homepageController.isMatchLive)
+                              if (homepageController.isMatchLive)
                               CarouselSlider(
                                 options: CarouselOptions(height: Get.height * 0.22, initialPage: 1),
                                 items: homepageController.fixtures.api!.fixtures!.map((fixture) {
