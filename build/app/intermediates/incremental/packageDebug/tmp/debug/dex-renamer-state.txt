@@ -1,0 +1,4 @@
+#Thu Apr 20 16:04:04 IST 2023
+base.0=/Users/milan/Documents/AndroidStudioProjects/Flutter/task_interview/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
